@@ -7,7 +7,7 @@ gen:
 	--grpc_out=grpc_js:./src/pb \
 	-I proto proto/*.proto
 
-	${PROTOC} \
+	$(PROTOC) \
 	--plugin=protoc-gen-ts=${PROTOC_GEN_TS} \
 	--ts_out=grpc_js:./src/pb \
 	-I proto proto/*.proto
