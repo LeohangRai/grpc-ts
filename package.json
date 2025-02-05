@@ -1,0 +1,21 @@
+{
+  "name": "grpc-ts",
+  "version": "1.0.0",
+  "scripts": {
+    "start:server": "ts-node src/server/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/google-protobuf": "^3.15.12",
+    "grpc_tools_node_protoc_ts": "^5.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.12.6",
+    "google-protobuf": "^3.21.4",
+    "grpc-tools": "^1.12.4"
+  }
+}
